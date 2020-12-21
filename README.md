@@ -53,7 +53,7 @@
             settings[dataStoreKey] = value
         }
     }
-#To Read data from the preferences
+# To Read data from the preferences
 
     private suspend fun read(key: String): String? {
         val dataStoreKey = preferencesKey<String>(key)
